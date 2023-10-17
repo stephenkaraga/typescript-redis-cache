@@ -1,0 +1,76 @@
+.app {
+
+}
+
+.app__planets {
+
+}
+
+.app__planet {
+  width: 30%;
+  float: left;
+  padding: 4px;
+  height: 400px;
+  display: grid;
+}
+
+.app__planet-img {
+  width: 100px;
+  justify-self: center;
+}
+h4 {
+  justify-self: center;
+  text-align: center;
+}
+.app__form-buttons {
+  display: grid;
+  align-self: end;
+  align-content: end;
+}
+
+button {
+  padding: 4px;
+  border-radius: 2px;
+}
+
+.edit {
+  background-color: rgb(0,170,224);
+  color: white;
+}
+
+.delete {
+  background-color: lightcoral;
+  color: white;
+}
+
+.app__add-new {
+  background: blue;
+  color: white;
+}
+
+.app__add-new-submit, .app__edit-submit {
+  background-color: blue;
+  color: white;
+}
+
+.app__add-new-form, .app__edit-form {
+  height: 400px;
+  width: 30%;
+}
+
+.app__add-new-cancel, .app__edit-cancel {
+  background: red;
+  color: white;
+}
+
+.app__add-new-cancel {
+
+}
+
+.app__add-new {
+  
+}
+
+.app__add-new {
+  
+}
